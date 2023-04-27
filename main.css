@@ -12,6 +12,7 @@ body {
 .container {
     max-width: 1024px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 header {
@@ -151,7 +152,7 @@ footer{
 
 @media screen and (max-width:1023px) {
     .container {
-        max-width: 90%;
+        max-width: 100%;
     }
     
     #sobre {
@@ -167,10 +168,6 @@ footer{
 @media screen and (max-width:640px) {
     header h1 {
         font-size: 24px;
-    }
-    
-    .container {
-        max-width: 90%;
     }
     
     ul {
